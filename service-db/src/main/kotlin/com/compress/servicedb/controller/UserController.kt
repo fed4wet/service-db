@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/user")
-class EntityController(
+class UserController(
     private val repository: UserRepository
 ) {
 
